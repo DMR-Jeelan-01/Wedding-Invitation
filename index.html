@@ -3,44 +3,45 @@
 <head>
   <title>Wedding Invitation</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins&display=swap" rel="stylesheet">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&family=Poppins&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- MUSIC BAR -->
-<div class="music-bar">🎵 Playing Music...</div>
+<div class="phone">
 
-<div class="card">
+  <!-- MUSIC CHIP -->
+  <div class="music">🎵 Playing Music...</div>
 
-  <!-- Floral Corners -->
-  <div class="flower top-left"></div>
-  <div class="flower top-right"></div>
-  <div class="flower bottom-left"></div>
-  <div class="flower bottom-right"></div>
+  <div class="card">
 
-  <h2 class="title">Wedding Invitation</h2>
+    <h2 class="title">Wedding Invitation</h2>
 
-  <h1>FAYAZ</h1>
-  <div class="heart">❤️</div>
-  <h1>NOOR - E - CHASHMI</h1>
+    <h1>FAYAZ</h1>
+    <div class="heart">❤️</div>
+    <h1>NOOR - E - CHASHMI</h1>
 
-  <div class="timer" id="timer">Wedding in: Loading...</div>
+    <div class="timer" id="timer">
+      Wedding in: 352d 14h 27m
+    </div>
 
-  <h3>Wedding Venue</h3>
-  <p>G.R. Function Hall,<br>Gate No.1, 3rd Road,<br>Anantapuramu.</p>
+    <div class="box">
+      <h3>Wedding Venue</h3>
+      <p>G.R. Function Hall,<br>Gate No.1, 3rd Road,<br>Anantapuramu.</p>
 
-  <h3>Reception Venue</h3>
-  <p>City Gate Function Hall,<br>Near Srilekha Water Plant,<br>Bypass Road, Anantapur.</p>
+      <h3>Reception Venue</h3>
+      <p>City Gate Function Hall,<br>Near Srilekha Water Plant,<br>Bypass Road, Anantapur.</p>
+    </div>
 
-  <button class="btn orange">📍 Wedding Location</button>
-  <button class="btn purple">📍 Reception Location</button>
-  <button class="btn green">📞 Call Now</button>
+    <button class="btn orange">📍 Wedding Location</button>
+    <button class="btn purple">📍 Reception Location</button>
+    <button class="btn green">📞 Call Now</button>
 
-  <button class="view-btn" onclick="openCard()">View Card</button>
+    <button class="view" onclick="openCard()">View Card</button>
 
+  </div>
 </div>
 
 <!-- POPUP -->
@@ -51,7 +52,7 @@
 
     <h2>You are Invited</h2>
 
-    <p class="desc">
+    <p>
       With the blessings of our families,<br>
       we joyfully invite you to celebrate our wedding
     </p>
@@ -62,23 +63,19 @@
 
     <div class="dates">
       <div>
-        <b>Wedding</b><br>
-        12-04-2026<br>
-        11:30 AM
+        Wedding<br><b>12-04-2026</b><br>11:30 AM
       </div>
       <div>
-        <b>Reception</b><br>
-        14-04-2026<br>
-        6:30 PM
+        Reception<br><b>14-04-2026</b><br>6:30 PM
       </div>
     </div>
 
-    <p class="footer">We look forward to celebrating with you!</p>
+    <p class="end">We look forward to celebrating with you!</p>
 
   </div>
 </div>
 
-<!-- TOAST MESSAGE -->
+<!-- TOAST -->
 <div id="toast">✔ Card Closed</div>
 
 <script src="script.js"></script>
